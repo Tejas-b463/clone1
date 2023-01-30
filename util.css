@@ -1,0 +1,39 @@
+.flex {
+    display: flex;
+}
+
+@media(max-width:500px) {
+    .container {
+        padding: 0rem;
+    }
+    nav {
+        flex-direction: column;
+    }
+    .flex {
+        margin: auto;
+    }
+    .search {
+        width: 13vw;
+    }
+    header {
+        height: 13vh;
+        width: 190vw
+    }
+    .home {
+        width: 190vw;
+    }
+    .itemimg {
+        width: 32vw;
+        height: 25vh;
+    }
+    .itemimg3 {
+        width: 40vw;
+        height: 25vh;
+    }
+    .itemimg1 {
+        width: 95vw;
+    }
+    .itemimg2 {
+        width: 62vw;
+    }
+}
